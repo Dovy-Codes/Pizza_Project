@@ -14,6 +14,7 @@
         <input id="btnOrder" type="button" onclick="getReceipt()" 
             value="Place Order">
         <form id="frmMenu">
+        <!----------------Here User will choose Pizza size------------>
             <div class="menu left">
                 <h3>Size:</h3>
                 <input type="radio" class="size" name="Size"
@@ -28,6 +29,7 @@
                     value="Extra Large Pizza">Extra Large Pizza<br>
             </div>
 
+        <!--------Here User will choose Vegetable toppings------------>
             <div class="menu left">
                 <h3>Vegetables:</h3>
                 <input class="toppings"type="checkbox" name="Topping" 
@@ -42,6 +44,7 @@
                     value="Corn">Corn<br>
             </div>
 
+        <!--------Here User will choose Meat toppings---------------->
             <div class="menu right">
                 <h3>Meats:</h3>
                 <input class="toppings"type="checkbox" name="Topping" 
@@ -59,6 +62,7 @@
                 <input class="toppings"type="checkbox" name="Topping" 
                     value="Chicken">Chicken<br>
             </div>
+        <!--We will return the price and ingredients chosen by User here-->
             <div id="cart">
                 <div id="showText"></div>
                 <div id="totalPrice"></div>
