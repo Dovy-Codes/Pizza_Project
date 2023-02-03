@@ -8,7 +8,7 @@ function getReceipt() {
     for (let i = 0; i < sizeArray.length; i++) {
         if (sizeArray[i].checked) {
             var selectedSize = sizeArray[i].value;
-            text1 = text1 + selectedSize + "<br;>"
+            text1 = text1 + selectedSize + "<br>"
         }
     }
     if (selectedSize === "Personal Pizza") {
